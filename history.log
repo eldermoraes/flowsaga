@@ -1,1 +1,2 @@
 fn init --runtime java debit
+fn init --runtime java credit
