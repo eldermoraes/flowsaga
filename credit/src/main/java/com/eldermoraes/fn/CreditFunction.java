@@ -36,7 +36,7 @@ public class CreditFunction {
         public String confirmation;
     }
     
-    public CreditResponse debit(CreditRequest input){
+    public CreditResponse credit(CreditRequest input){
         CreditResponse resp = new CreditResponse();
         resp.confirmation = "Account credited"; //TODO create an API
         return resp;

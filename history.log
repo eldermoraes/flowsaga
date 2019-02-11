@@ -1,2 +1,9 @@
 fn init --runtime java debit
 fn init --runtime java credit
+fn init --runtime java cash-withdrawal
+fn init --runtime java send-online
+
+fn deploy --all --local
+
+fn list functions bankacc
+

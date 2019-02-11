@@ -1,8 +1,8 @@
 schema_version: 20180708
-name: credit
-version: 0.0.7
+name: send-online
+version: 0.0.3
 runtime: java
 build_image: fnproject/fn-java-fdk-build:jdk9-1.0.83
 run_image: fnproject/fn-java-fdk:jdk9-1.0.83
-cmd: com.eldermoraes.fn.CreditFunction::credit
+cmd: com.example.fn.HelloFunction::handleRequest
 format: http-stream

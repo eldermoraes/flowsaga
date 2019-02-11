@@ -1,8 +1,8 @@
 schema_version: 20180708
 name: debit
-version: 0.0.1
+version: 0.0.4
 runtime: java
-build_image: fnproject/fn-java-fdk-build:jdk9-1.0.85
-run_image: fnproject/fn-java-fdk:jdk9-1.0.85
-cmd: com.example.fn.HelloFunction::handleRequest
+build_image: fnproject/fn-java-fdk-build:jdk9-1.0.83
+run_image: fnproject/fn-java-fdk:jdk9-1.0.83
+cmd: com.eldermoraes.fn.DebitFunction::debit
 format: http-stream
