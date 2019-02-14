@@ -1,0 +1,4 @@
+com/eldermoraes/fn/messages/AmountReq$DebitReq.class
+com/eldermoraes/fn/messages/AmountReq.class
+com/eldermoraes/fn/messages/TransactionRes.class
+com/eldermoraes/fn/DebitFunction.class
